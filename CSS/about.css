@@ -1,0 +1,168 @@
+body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+  color: white;
+  position: relative;
+}
+
+.logo h2 {
+  margin: 0;
+  align-items: left;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-content: flex-end;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.kraftor-section .text-block,
+.goal-section ul,
+.kraftor-box,
+.card,
+.team,
+.cards,
+.card-container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: #222;
+  border-radius: 10px;
+}
+
+.kraftor-section .icon-row,
+.cards,
+.team,
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.icon, .team img {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.diamond { background-image: url('diamond-icon.png'); }
+.flame { background-image: url('flame-icon.png'); }
+.infinity { background-image: url('infinity-icon.png'); }
+
+.footer-box {
+  background: #111;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.footer-box .highlight {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+ul li {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: gold;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.card {
+  width: 280px;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+footer {
+      background: #111;
+      padding: 50px;
+      text-align: center;
+    }
+    footer p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #aaa;
+    }

@@ -1,0 +1,258 @@
+ body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+  }
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+  color: white;
+  position: relative;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+}
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+    }
+    .section {
+      padding: 60px 20px;
+       display: flex; 
+       flex-direction: column;
+      align-items: center;
+    }
+
+    .glass {
+      max-width: 1200px;
+      width: 100%;
+      background: rgba(255,255,255,0.06);
+      border-radius: 20px;
+      padding: 48px 32px;
+      backdrop-filter: blur(10px) saturate(1.5);
+      box-shadow: 0 8px 36px #0004;
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .glass h2 {
+      font-size: 36px;
+      margin-bottom: 16px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .glass .intro-text {
+      font-size: 18px;
+      color: #ccc;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .career-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .career-card {
+      background: rgba(255,255,255,0.10);
+      border-radius: 18px;
+      box-shadow: 0 4px 32px #0002;
+      padding: 32px 24px;
+      backdrop-filter: blur(8px) saturate(1.2);
+      border: 1.5px solid rgba(255,255,255,0.08);
+      transform: translateY(50px) scale(0.98);
+      transition: transform 0.8s ease, opacity 0.8s ease;
+      opacity: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .career-card.visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .career-card::before {
+      content: '';
+      position: absolute;
+      top: -40px; left: -40px;
+      width: 120px; height: 120px;
+      background: linear-gradient(120deg, rgba(255,255,255,0.18) 0%, rgba(0,0,0,0) 100%);
+      border-radius: 50%;
+      filter: blur(8px);
+      z-index: 0;
+    }
+
+    .career-card h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .career-card p {
+      font-size: 16px;
+      color: #ccc;
+      z-index: 1;
+      position: relative;
+    }
+ 
+    .apply-button {
+  margin-top: 16px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f8e3e3;
+  color: #000;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+  position: relative;
+}
+
+.apply-button:hover {
+  background: #cf0101;
+  transform: scale(1.05);
+}
+
+.career-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.career-form input,
+.career-form select,
+.career-form textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.08);
+  color: #1a1414;
+  font-size: 16px;
+  resize: vertical;
+  backdrop-filter: blur(4px);
+}
+
+.career-form label {
+  font-weight: 600;
+  color: #eee;
+}
+
+.career-form button {
+  padding: 12px 20px;
+  background-color: #80d4ff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.career-form button:hover {
+  background-color: #66c2f2;
+}
+
+
+    .cta {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 16px;
+      color: #ddd;
+    }
+
+    .cta a {
+      color: #80d4ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 700px) {
+      .glass {
+        padding: 24px 16px;
+      }
+
+      .glass h2 {
+        font-size: 28px;
+      }
+
+      .career-card h3 {
+        font-size: 20px;
+      }
+
+      .career-card p {
+        font-size: 14px;
+      }
+    }
+    footer {
+      background: #111;
+      padding: 50px;
+      text-align: center;
+    }
+    footer p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #aaa;
+    }
