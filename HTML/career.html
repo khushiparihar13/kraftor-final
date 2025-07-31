@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Our Team</title>
+  <link rel="stylesheet" href="../CSS/career.css">
+
+</head>
+<body>
+   <header>
+  <div class="logo"><h2>Kraftor India</h2></div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="career.html">Career</a>
+    <a href="internship.html">Internships</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="help.html">Help</a>
+  </nav>
+</header>
+  <section id="career" class="section">
+    <div class="glass">
+      <h2>Join Our Team</h2>
+      <p class="intro-text">We see your potential — let's build something amazing together. Explore dynamic roles that blend passion with purpose.</p>
+      <div class="career-grid">
+        <div class="career-card"><h3>🎬 Animator</h3><p>Bring stories to life with motion and imagination.</p>
+         <a class="apply-button" href="careerform.html">Apply Now</a>
+        </div>
+        <div class="career-card"><h3>🕹 Cinematography</h3><p>Craft cinematic transitions and stunning visual effects.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🎥 Cameraman</h3><p>Capture emotion, precision, and cinematic beauty.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>✍ Content Creator</h3><p>Tell compelling stories through words, visuals, and media.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🎮 Game Developer</h3><p>Design engaging gameplay and interactive experiences.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🎨 Graphic Designer</h3><p>Shape brand identity with bold, creative visuals.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🎵 Music Editor</h3><p>Set the tone with rhythm, emotion, and sound design.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🧠 Project Manager</h3><p>Lead with strategy, coordination, and seamless execution.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+        <div class="career-card"><h3>🎞 Video Editor</h3><p>Craft stunning narratives from raw footage to final cut.</p><a class="apply-button" href="careerform.html">Apply Now</a></div>
+      </div>
+      <div class="cta">
+        <p>✨ Ready to join us? <a href="careerform.html">Fill out your details here</a> and step into a future full of creativity.</p>
+      </div>
+    </div>
+  </section>
+
+  </div>
+</section>
+<footer>
+    <h2>Kraftor India</h2>
+    <p>Digital Advertising | Branding | Content Creation</p>
+    <p>Email: connect@kraftorindia.com</p>
+    <p>© 2025 Kraftor India. All rights reserved.</p>
+  </footer>
+
+  <script>
+    
+    /* Optional scroll animation trigger */
+    window.addEventListener('scroll', () => {
+      document.querySelectorAll('.career-card').forEach(card => {
+        const rect = card.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 80) {
+          card.classList.add('visible');
+        }
+      });
+    });
+    function toggleMenu() {
+    const nav = document.querySelector(".nav-links");
+    nav.classList.toggle("open");
+  }
+  </script>
+</body>
+</html>

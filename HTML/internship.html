@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kraftor Internship</title>
+  <link rel="stylesheet" href="../CSS/internship.css" />
+</head>
+<body>
+ <header>
+  <div class="logo"><h2>Kraftor India</h2></div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="career.html">Career</a>
+    <a href="internship.html">Internships</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="help.html">Help</a>
+  </nav>
+</header>
+ <script>
+  function toggleMenu() {
+    const nav = document.querySelector(".nav-links");
+    nav.classList.toggle("open");
+  }
+</script>
+
+  <div class="container">
+    <header>
+      <h1>Kraftor Internship </h1>
+      <p class="tagline">Not just an internship — it's your launchpad into the creative world.</p>
+    </header>
+
+    <section class="about">
+      <br>
+      <br>
+      <h2>🧠 About the Program</h2>
+      <ul>
+        <li>Work on live projects</li>
+        <li>Learn from working professionals</li>
+        <li>Build your portfolio</li>
+        <li>Earn a certificate that actually means something</li>
+      </ul>
+    </section>
+
+    <section class="testimonials">
+      <h2>🌟 Our Alumni Speak</h2>
+      <blockquote>“Joining Kraftor changed my perspective on creativity. I wasn’t just taught — I was trusted to deliver.”<br><span>— Priya S., Graphic Design Intern</span></blockquote>
+      <blockquote>“From editing Instagram reels to full music videos — Kraftor gave me real tools and real feedback.”<br><span>— Rahul V., Video Editing Intern</span></blockquote>
+      <blockquote>“The internship felt like a bootcamp — but creative! Learned fast, failed fast, and finally launched my own projects.”<br><span>— Sneha T., Web Design Intern</span></blockquote>
+    </section>
+
+    <section class="courses">
+      <h2>📚 Available Internship Courses</h2>
+
+      <div class="course-card">
+        <img src="../images/graphic.jpg" alt="Graphic Design" />
+        <div>
+          <strong>Graphic Design</strong><br />
+          Photoshop, Illustrator, Canva <br />
+          Remote/Hybrid | 1-2 Month
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="../images/videoE.jpg" alt="Video Editing" />
+        <div>
+          <strong>Video Editing</strong><br />
+          Premiere Pro, After Effects <br />
+          Remote/Hybrid | 1–2 Months
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="../images/webdev.jpg" alt="Web Design" />
+        <div>
+          <strong>Web Designing</strong><br />
+          Figma, WordPress, HTML/CSS Basics <br />
+          Remote/Hybrid | 3-4 Month
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="../images/gamedev.jpg" alt="Game Designing" />
+        <div>
+          <strong>Game Designing</strong><br />
+          Unity, Illustrator, Game Assets <br />
+          Remote/Hybrid | 3 Months
+        </div>
+      </div>
+    </section>
+
+    <section class="registration">
+      <h2>📝 Apply for a Course</h2>
+      <form action="submit.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+          <option value="graphic">Graphic Design</option>
+          <option value="video">Video Editing</option>
+          <option value="web">Web Designing</option>
+          <option value="game">Game Designing</option>
+        </select>
+
+        <label for="motivation">Why do you want to join?</label>
+        <textarea id="motivation" name="motivation" rows="4" placeholder="Share your passion, goals, or what inspires you."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="cta">
+      <h2>🚀 What's Next?</h2>
+      <p>📩 Email: career@kraftor.in</p>
+      <a href="mailto:career@kraftor.in" class="register-btn">Apply Now</a>
+    </section>
+
+    <footer>
+      <p class="final-line">Build your skills, your name, and your future — one project at a time, with Kraftor.</p>
+    </footer>
+
+    <footer>
+      <h2>Kraftor India</h2>
+      <p>Digital Advertising | Branding | Content Creation</p>
+      <p>Email: connect@kraftorindia.com</p>
+      <p>© 2025 Kraftor India. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
