@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+</head>
+<body>
+  <header>
+  <div class="logo"><h2>Kraftor India</h2></div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="career.html">Career</a>
+    <a href="internship.html">Internships</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="help.html">Help</a>
+  </nav>
+</header>
+    <section class="hero">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <h1>Creative. Powerful. Digital.</h1>
+    <p>Kraftor India is your next-gen creative agency — building brands with clarity, boldness, and innovation.</p>
+    <button class="btn" onclick="location.href='services.html'">Explore Services</button>
+    <button class="btn" onclick="location.href='career.html'">Join Career</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </section>  
+
+  
+  <section id="home-services" class="home-services-section">
+    <h2>Our Services</h2>
+    <div class="home-services-grid">
+      <div class="home-service-card">
+        <h3>Digital Advertisement</h3>
+        <img src="../images/Digital Ad.jpg" alt="Digital Advertisement" />
+      </div>
+      <div class="home-service-card">
+        <h3>Social Media Management</h3>
+        <img src="../images/socialM.jpg" alt="Social Media Management" />
+      </div>
+      <div class="home-service-card">
+        <h3>Graphic Design</h3>
+        <img src="../images/graphic.jpg" alt="Graphic Design" />
+      </div>
+      <div class="home-service-card">
+        <h3>Content Creation</h3>
+        <img src="../images/content.jpg" alt="Content Creation" />
+      </div>
+      <div class="home-service-card">
+        <h3>Web Development</h3>
+        <img src="../images/webdev.jpg" alt="Web Development" />
+      </div>
+      <div class="home-service-card">
+        <h3>Application Development</h3>
+        <img src="../images/appdev.jpg" alt="Application Development" />
+      </div>
+      <div class="home-service-card">
+        <h3>Game Development</h3>
+        <img src="../images/gamedev.jpg" alt="Game Development" />
+      </div>
+      <div class="home-service-card">
+        <h3>2D & 3D Animation</h3>
+        <img src="../images/animation .jpg" alt="2D & 3D Animation" />
+      </div>
+      <div class="home-service-card">
+        <h3>Video Editing</h3>
+        <img src="../images/videoE.jpg" alt="Video Editing" />
+      </div>
+      <div class="home-service-card">
+        <h3>Cinematography</h3>
+        <img src="../images/camera.jpg" alt="Cinematography" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="clients">
+    <h2>Our Clients</h2>
+    <div class="clients logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Client 1">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Adidas_logo.png" alt="Client 2">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Client 3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Pepsi_logo_2014.svg" alt="Client 4">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Client 5">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Client 6">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Client 7">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg" alt="Client 8">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Nike_logo.svg" alt="Client 9">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/YouTube_social_white_square_%282017%29.svg" alt="Client 10">
+    </div>
+  </section>  
+  <section class="section">
+    <h2>Client Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>“Kraftor delivered beyond expectations. Our brand looks elite now.”</p>
+        <p>- Rahul Sharma, CEO at ZenoTech</p>
+      </div>
+      <div class="testimonial">
+        <p>“Their content ideas and designs changed how we present ourselves online.”</p>
+        <p>- Shreya Nair, Brand Lead, Orbit Design</p>
+      </div>
+      <div class="testimonial">
+        <p>“Very strategic team. Humne sales ka boost dekha after campaign.”</p>
+        <p>- Imran Sheikh, Ecom Head</p>
+      </div>
+    </div>
+  </section>  <section class="section" id="contact">
+    <h2>Let’s Collaborate</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Company (Optional)">
+      <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+      <button type="submit">Submit Inquiry</button>
+    </form>
+  </section>  
+  <footer>
+    <h2>Kraftor India</h2>
+    <p>Digital Advertising | Branding | Content Creation</p>
+    <p>Email: connect@kraftorindia.com</p>
+    <p>© 2025 Kraftor India. All rights reserved.</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    const nav = document.querySelector(".nav-links");
+    nav.classList.toggle("open");
+  }
+</script>
+</body>
+</html>
