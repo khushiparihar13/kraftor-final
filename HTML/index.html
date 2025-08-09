@@ -1,51 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../CSS/home.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kraftor India</title>
+  <link rel="shortcut icon" href="/images/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="../CSS/home.css">
 </head>
+
 <body>
   <header>
-  <div class="logo"><h2>Kraftor India</h2></div>
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <nav class="nav-links">
-    <a href="home.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="career.html">Career</a>
-    <a href="internship.html">Internships</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact Us</a>
-    <a href="help.html">Help</a>
-  </nav>
-</header>
-    <section class="hero">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+    <div class="logo">
+      <img src="../images/kraftor-logo.png" alt="">
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="career.html">Career</a>
+      <a href="internship.html">Internships</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+
+
+  <section class="hero">
     <h1>Creative. Powerful. Digital.</h1>
     <p>Kraftor India is your next-gen creative agency — building brands with clarity, boldness, and innovation.</p>
     <button class="btn" onclick="location.href='services.html'">Explore Services</button>
     <button class="btn" onclick="location.href='career.html'">Join Career</button>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-  </section>  
+  </section>
 
   
+  <section class="section" id="partners">
+    <h2>Official Partners</h2>
+    <div class="partner-grid">
+      <div class="partner-card">
+        <img src="../images/google-ads.jpg" alt="Google Ads" />
+        <h3>Google Ads</h3>
+      </div>
+      <div class="partner-card">
+        <img src="../images/meta-ads.png" alt="Meta Ads" />
+        <h3>Meta Ads</h3>
+      </div>
+      <div class="partner-card">
+        <img src="../images/nagpur-metro.png" alt="Nagpur Metro" />
+        <h3>Nagpur Metro</h3>
+      </div>
+      <div class="partner-card">
+        <img src="../images/nagpur-billboard.jpg" alt="Nagpur Billboard" />
+        <h3>Nagpur Billboard</h3>
+      </div>
+    </div>
+  </section>
+
+
   <section id="home-services" class="home-services-section">
     <h2>Our Services</h2>
     <div class="home-services-grid">
@@ -92,7 +104,7 @@
     </div>
   </section>
 
-  <section class="section" id="clients">
+  <!-- <section class="section" id="clients">
     <h2>Our Clients</h2>
     <div class="clients logos">
       <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Client 1">
@@ -104,9 +116,10 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png" alt="Client 7">
       <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg" alt="Client 8">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Nike_logo.svg" alt="Client 9">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/YouTube_social_white_square_%282017%29.svg" alt="Client 10">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/YouTube_social_white_square_%282017%29.svg"
+        alt="Client 10">
     </div>
-  </section>  
+  </section> -->
   <section class="section">
     <h2>Client Testimonials</h2>
     <div class="testimonials">
@@ -123,7 +136,8 @@
         <p>- Imran Sheikh, Ecom Head</p>
       </div>
     </div>
-  </section>  <section class="section" id="contact">
+  </section>
+  <section class="section" id="contact">
     <h2>Let’s Collaborate</h2>
     <form>
       <input type="text" placeholder="Your Name" required>
@@ -132,18 +146,19 @@
       <textarea rows="5" placeholder="Tell us about your project..."></textarea>
       <button type="submit">Submit Inquiry</button>
     </form>
-  </section>  
+  </section>
   <footer>
-    <h2>Kraftor India</h2>
+     <img style="width: 100px;" src="../images/kraftor-logo.png" alt="">
     <p>Digital Advertising | Branding | Content Creation</p>
     <p>Email: connect@kraftorindia.com</p>
     <p>© 2025 Kraftor India. All rights reserved.</p>
   </footer>
   <script>
-  function toggleMenu() {
-    const nav = document.querySelector(".nav-links");
-    nav.classList.toggle("open");
-  }
-</script>
+    function toggleMenu() {
+      const nav = document.querySelector(".nav-links");
+      nav.classList.toggle("open");
+    }
+  </script>
 </body>
+
 </html>

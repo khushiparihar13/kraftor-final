@@ -1,11 +1,11 @@
 body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #000;
-      color: #fff;
+      background-color: #000000;
+      color: #ffffff;
     }
     header {
-      background: #111;
+      background: #000000;
       padding: 20px 50px;
       display: flex;
       justify-content: space-between;
@@ -19,15 +19,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   position: relative;
 }
 
-.logo h2 {
+.logo img {
   margin: 0;
-  align-items: left;
-
+  height: 70px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -38,7 +39,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -55,7 +56,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: #111111;
     width: 200px;
     padding: 10px;
   }
@@ -72,18 +73,18 @@ header {
     header nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff;
+      color: #ffffff;
       font-weight: 600;
     }
 
 section {
   padding: 60px 20px;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #222222;
 }
 
 h1, h2 {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .kraftor-section .text-block,
@@ -96,7 +97,7 @@ h1, h2 {
   margin: 20px auto;
   max-width: 800px;
   padding: 20px;
-  background: #222;
+  background: #111111;
   border-radius: 10px;
 }
 
@@ -122,16 +123,16 @@ h1, h2 {
 .infinity { background-image: url('infinity-icon.png'); }
 
 .footer-box {
-  background: #111;
+  background: #000000;
   padding: 10px 20px;
   display: inline-block;
   margin: 20px auto;
   border-radius: 8px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .footer-box .highlight {
-  color: #ffcc00;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -141,7 +142,7 @@ ul li {
 }
 
 .stars {
-  color: gold;
+  color: #ffffff;
   text-align: center;
   font-size: 1.2em;
 }
@@ -151,18 +152,18 @@ ul li {
 }
 
 a {
-  color: #00aaff;
+  color: #ffffff;
   text-decoration: none;
   display: block;
-  margin-top: 10px;
+  margin-top: 10px;
 }
 footer {
-      background: #111;
+      background: #000000;
       padding: 50px;
       text-align: center;
     }
     footer p {
       margin: 10px 0;
       font-size: 14px;
-      color: #aaa;
+      color: #cccccc;
     }

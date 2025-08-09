@@ -1,11 +1,11 @@
 body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #000;
-      color: #fff;
+      background-color: #000000;
+      color: #ffffff;
     }
     header {
-      background: #111;
+      background: #000000;
       padding: 20px 50px;
       display: flex;
       justify-content: space-between;
@@ -21,13 +21,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   position: relative;
 }
 
-.logo h2 {
+.logo img {
   margin: 0;
+  height: 70px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -37,7 +40,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -54,7 +57,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: #111111;
     width: 200px;
     padding: 10px;
   }
@@ -73,7 +76,7 @@ header {
     header nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff;
+      color: #ffffff;
       font-weight: 600;
     }
 
@@ -101,7 +104,7 @@ header {
 
 .section {
   padding: 80px 50px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #222222;
 }
 
 .section h2 {
@@ -121,15 +124,15 @@ form {
 form input, form textarea {
   padding: 15px;
   margin-bottom: 15px;
-  background: #111;
-  border: 1px solid #555;
-  color: white;
+  background: #000000;
+  border: 1px solid #333333;
+  color: #ffffff;
 }
 
 form button {
   padding: 15px;
-  background: white;
-  color: black;
+  background: #ffffff;
+  color: #000000;
   font-weight: 600;
   border: none;
   cursor: pointer;
@@ -147,7 +150,7 @@ form button {
 }
 
 .contact-links a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -168,7 +171,7 @@ form button {
   height: 300px;
   border-radius: 2%;
   margin-top: 10px;
-  border-style: solid white;
+  border-style: solid #ffffff;
 }
 .office-grid {
   display: grid;
@@ -203,7 +206,7 @@ form button {
 
 .section {
   padding: 80px 50px;
-  border-top: 1px solid #333;
+  border-top: 1px solid #222222;
 }
 
 .faq-container {
@@ -212,7 +215,7 @@ form button {
 }
 
 .faq-item {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #222222;
   padding: 20px 0;
 }
 
@@ -234,12 +237,12 @@ form button {
 
 
 footer {
-  background: #111;
+  background: #000000;
   padding: 50px;
   text-align: center;
 }
 
 footer p {
   font-size: 14px;
-  color: #aaa;
+  color: #cccccc;
 }

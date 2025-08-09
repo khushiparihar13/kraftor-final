@@ -1,11 +1,11 @@
- body {
+body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #000;
-      color: #fff;
+      background-color: #000000;
+      color: #ffffff;
     }
     header {
-      background: #111;
+      background: #000000;
       padding: 20px 50px;
       display: flex;
       justify-content: space-between;
@@ -21,13 +21,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   position: relative;
 }
 
-.logo h2 {
+.logo img {
   margin: 0;
+  height: 70px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -37,7 +40,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -54,7 +57,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: #111111;
     width: 200px;
     padding: 10px;
   }
@@ -71,7 +74,7 @@ header {
     header nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff;
+      color: #ffffff;
       font-weight: 600;
     }
     .section {
@@ -84,24 +87,24 @@ header {
     .glass {
       max-width: 1200px;
       width: 100%;
-      background: rgba(255,255,255,0.06);
+      background: rgba(255,255,255,0.1);
       border-radius: 20px;
       padding: 48px 32px;
       backdrop-filter: blur(10px) saturate(1.5);
-      box-shadow: 0 8px 36px #0004;
-      border: 1px solid rgba(255,255,255,0.12);
+      box-shadow: 0 8px 36px #ffffff44;
+      border: 1px solid rgba(255,255,255,0.2);
     }
 
     .glass h2 {
       font-size: 36px;
       margin-bottom: 16px;
       text-align: center;
-      color: #fff;
+      color: #ffffff;
     }
 
     .glass .intro-text {
       font-size: 18px;
-      color: #ccc;
+      color: #dddddd;
       text-align: center;
       margin-bottom: 32px;
     }
@@ -113,12 +116,12 @@ header {
     }
 
     .career-card {
-      background: rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.15);
       border-radius: 18px;
-      box-shadow: 0 4px 32px #0002;
+      box-shadow: 0 4px 32px #ffffff22;
       padding: 32px 24px;
       backdrop-filter: blur(8px) saturate(1.2);
-      border: 1.5px solid rgba(255,255,255,0.08);
+      border: 1.5px solid rgba(255,255,255,0.15);
       transform: translateY(50px) scale(0.98);
       transition: transform 0.8s ease, opacity 0.8s ease;
       opacity: 0;
@@ -136,7 +139,7 @@ header {
       position: absolute;
       top: -40px; left: -40px;
       width: 120px; height: 120px;
-      background: linear-gradient(120deg, rgba(255,255,255,0.18) 0%, rgba(0,0,0,0) 100%);
+      background: linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
       border-radius: 50%;
       filter: blur(8px);
       z-index: 0;
@@ -152,7 +155,7 @@ header {
 
     .career-card p {
       font-size: 16px;
-      color: #ccc;
+      color: #dddddd;
       z-index: 1;
       position: relative;
     }
@@ -161,8 +164,8 @@ header {
   margin-top: 16px;
   display: inline-block;
   padding: 10px 20px;
-  background: #f8e3e3;
-  color: #000;
+  background: #ffffff;
+  color: #000000;
   font-weight: 600;
   border-radius: 8px;
   text-decoration: none;
@@ -172,8 +175,8 @@ header {
 }
 
 .apply-button:hover {
-  background: #cf0101;
-  transform: scale(1.05);
+  background: #dddddd;
+  transform: scale(1.05);
 }
 
 .career-form {
@@ -188,8 +191,8 @@ header {
   padding: 12px;
   border-radius: 10px;
   border: none;
-  background: rgba(255,255,255,0.08);
-  color: #1a1414;
+  background: rgba(255,255,255,0.1);
+  color: #ffffff;
   font-size: 16px;
   resize: vertical;
   backdrop-filter: blur(4px);
@@ -197,13 +200,13 @@ header {
 
 .career-form label {
   font-weight: 600;
-  color: #eee;
+  color: #ffffff;
 }
 
 .career-form button {
   padding: 12px 20px;
-  background-color: #80d4ff;
-  color: #000;
+  background-color: #ffffff;
+  color: #000000;
   border: none;
   border-radius: 8px;
   font-weight: bold;
@@ -212,7 +215,7 @@ header {
 }
 
 .career-form button:hover {
-  background-color: #66c2f2;
+  background-color: #dddddd;
 }
 
 
@@ -220,11 +223,11 @@ header {
       margin-top: 40px;
       text-align: center;
       font-size: 16px;
-      color: #ddd;
+      color: #eeeeee;
     }
 
     .cta a {
-      color: #80d4ff;
+      color: #ffffff;
       text-decoration: none;
       font-weight: 600;
     }
@@ -247,12 +250,12 @@ header {
       }
     }
     footer {
-      background: #111;
+      background: #000000;
       padding: 50px;
       text-align: center;
     }
     footer p {
       margin: 10px 0;
       font-size: 14px;
-      color: #aaa;
+      color: #cccccc;
     }

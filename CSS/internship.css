@@ -2,11 +2,11 @@
 body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #000;
-      color: #fff;
+      background-color: #000000;
+      color: #ffffff;
     }
     header {
-      background: #111;
+      background: #000000;
       padding: 20px 50px;
       display: flex;
       justify-content: space-between;
@@ -22,13 +22,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   position: relative;
 }
 
-.logo h2 {
+.logo img {
   margin: 0;
+  height: 70px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .nav-links {
@@ -38,7 +41,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -55,7 +58,7 @@ header {
     position: absolute;
     top: 60px;
     right: 0;
-    background-color: #333;
+    background-color: #111111;
     width: 200px;
     padding: 10px;
   }
@@ -74,7 +77,7 @@ header {
     header nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #fff;
+      color: #ffffff;
       font-weight: 600;
     }
 
@@ -85,27 +88,27 @@ header {
 
 /* .logo h2 {
   font-size: 1.8rem;
-  color: #fff;
+  color: #ffffff;
   margin-left: 20px;
 }
 
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .nav-links a {
   margin: 0 12px;
   text-decoration: none;
-  color: #f5f5f5;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease;
 } */
 
 .nav-links a:hover {
-  color: #ff9800;
+  color: #ffffff;
 }
 
 /* MAIN CONTAINER */
@@ -113,8 +116,8 @@ header {
   max-width: 1200px;
   margin: 40px auto;
   padding: 30px;
-  background-color: #1e1e1e;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  background-color: #111111;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 
@@ -127,13 +130,13 @@ header h1,
 .cta h2 {
   font-size: 2.2rem;
   margin-bottom: 15px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .tagline {
   font-size: 1.2rem;
   font-style: italic;
-  color: #bbbbbb;
+  color: #dddddd;
 }
 
 /* ABOUT */
@@ -148,35 +151,35 @@ header h1,
 
 /* TESTIMONIALS */
 .testimonials {
-  background-color: #2b2b2b;
+  background-color: #222222;
   padding: 25px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
   margin: 30px 0;
 }
 
 blockquote {
   margin-bottom: 20px;
   padding-left: 15px;
-  border-left: 4px solid #ff9800;
+  border-left: 4px solid #ffffff;
   font-style: italic;
-  color: #ccc;
+  color: #dddddd;
 }
 
 blockquote span {
   display: block;
   margin-top: 5px;
   font-weight: bold;
-  color: #ffcc80;
+  color: #ffffff;
 }
 
 /* COURSES */
 .course-card {
   display: flex;
   align-items: center;
-  background: #2a2a2a;
-  border: 1px solid #444;
-  box-shadow: 0 2px 10px rgba(255,255,255,0.03);
+  background: #222222;
+  border: 1px solid #333333;
+  box-shadow: 0 2px 10px rgba(255,255,255,0.05);
   margin: 20px 0;
   padding: 20px;
   border-radius: 8px;
@@ -192,16 +195,16 @@ blockquote span {
 
 .course-card div {
   font-size: 22px;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* REGISTRATION FORM */
 .registration {
-  background-color: #2a2a2a;
+  background-color: #222222;
   padding: 30px;
-  border: 1px solid #444;
+  border: 1px solid #333333;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
   margin-top: 40px;
 }
 
@@ -214,17 +217,17 @@ label {
   font-weight: bold;
   margin-top: 20px;
   font-size: 1rem;
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 input, select, textarea {
   padding: 12px;
   margin-top: 8px;
-  border: 1px solid #666;
+  border: 1px solid #444444;
   border-radius: 6px;
   font-size: 1rem;
-  background-color: #1a1a1a;
-  color: #fff;
+  background-color: #111111;
+  color: #ffffff;
 }
 
 textarea {
@@ -233,8 +236,8 @@ textarea {
 
 button[type="submit"] {
   margin-top: 25px;
-  background-color: #fff;
-  color: #121212;
+  background-color: #ffffff;
+  color: #000000;
   padding: 12px;
   font-size: 1rem;
   border: none;
@@ -244,13 +247,13 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #ffb74d;
+  background-color: #dddddd;
 }
 
 /* CTA SECTION */
 .cta {
   text-align: center;
-  background-color: #2b2b2b;
+  background-color: #222222;
   padding: 30px;
   border-radius: 8px;
   margin: 40px 0;
@@ -260,27 +263,27 @@ button[type="submit"]:hover {
   display: inline-block;
   margin-top: 15px;
   padding: 12px 28px;
-  background-color: #fff;
-  color: #121212;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
 }
 
 .register-btn:hover {
-  background-color: #ffcc80;
+  background-color: #dddddd;
 }
 
 /* FOOTER */
 footer {
-  background-color: #1f1f1f;
+  background-color: #111111;
   text-align: center;
   padding: 20px;
-  color: #aaa;
+  color: #cccccc;
   font-size: 0.95rem;
 }
 
 .final-line {
   font-weight: bold;
-  color: #ff9800;
+  color: #ffffff;
 }
